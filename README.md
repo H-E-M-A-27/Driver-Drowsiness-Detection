@@ -13,10 +13,12 @@ In comparison to other approaches, CNN models are highly efficient in preprocess
 So, to summarize, we develop a CNN model and train it on a large corpus of images. Next, The trained model is compiled using different optimizers. We plot training loss, validation loss, and finally, implement the best model for the drowsiness detection system. Some of the limitations we encountered were low GPU capability and time-consuming training operations due to image preprocessing and input size.
 </p>
 ### Optimizers used:
-1.Aamm
+<ol>
+1.Adam
 2.Nadam
 3.Adagrad
 4.Adamax
 5.RMSProp
+</ol>
 #### The data set is in:
 https://www.kaggle.com/datasets/serenaraju/yawn-eye-dataset-new
