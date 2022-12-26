@@ -14,11 +14,11 @@ So, to summarize, we develop a CNN model and train it on a large corpus of image
 </p>
 ### Optimizers used:
 <ol>
-1.Adam
-2.Nadam
-3.Adagrad
-4.Adamax
-5.RMSProp
+<li>Adam</li>
+<li>Nadam</li>
+<li>Adagrad</li>
+<li>Adamax</li>
+<li>RMSProp</li>
 </ol>
 #### The data set is in:
 https://www.kaggle.com/datasets/serenaraju/yawn-eye-dataset-new
