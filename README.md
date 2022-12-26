@@ -4,6 +4,7 @@ Driver Drowsiness detection using CNN and OpenCV
 <p align="justify"> 
 Image classification and object detection are some of the most researched digital image analysis problems. Some of the image classification models using AI-based deep learning models have already surpassed humans in terms of data processing and accuracy. A cornerstone of these types of problems is the Drowsiness Detection problem. But what is often overlooked in the development of deep learning models for image classification and object detection test cases is the effect of optimizers. Most models use the Adam optimizer as a standard due to faster computation speed and it requiring fewer parameters for tuning. In this study, we compare the performance of different optimizers for the drowsiness detection test case. We use a dataset from the Medical Research Lab (MRL) with 48,000 images split into training and testing datasets. This dataset has infrared images of drivers’ eyes in different settings. We propose a CNN model given its advantage with image data feature extraction using the pooling and convolutional layers. The optimizers we use for this study are Adam, Adagrad, RMSProp, SGD, Adamax, and Nadam. Werunthemodelforasetnumberofepochsacrossalloptimizerstogetanideaofthe trends given our limited GPU capability. Training and validation losses are plotted for the models across optimizers using the categorical cross-entropy metric. Finally, we use the model selected in concurrence with OpenCV to employ our Drowsiness Detection System. This system increments a score variable for each second that the driver’s eyes are closed. When the score reaches a particular threshold, the system rings an alarm.
 </p>
+
 ### Introduction:
 <p align="justify">
 Statistical surveys have relayed that in the past few years drowsiness-related accidents have remained constant even with the increase in information and countermeasures put in place. According to the National Highway Traffic Safety Administration, there are over 100,000 Police reported crashes and over 1,500 deaths due to drowsy driving. More than 40% of drivers have admitted that they have fallen asleep behind the wheel. Drowsiness can result in symptoms that significantly affect how well activities are performed, such as decreased response time or brief loss of consciousness. These symptoms are highly dangerous when driving since they greatly increase the likelihood of drivers crashing their cars and getting into accidents. This is the problem we propose to tackle with the help of an optimized deep-learning CNN model.
@@ -21,5 +22,6 @@ So, to summarize, we develop a CNN model and train it on a large corpus of image
 <li>Adamax</li>
 <li>RMSProp</li>
 </ol>
+
 #### The data set is in:
 https://www.kaggle.com/datasets/serenaraju/yawn-eye-dataset-new
