@@ -12,6 +12,7 @@ Our work has a research objective and a real-world application objective. The re
 In comparison to other approaches, CNN models are highly efficient in preprocessing images without loss of information. This is why CNNs are used majorly for image classification use cases. We can also use supervised machine-learning algorithms for multiclass classification, such as SVM, Bayesian, and KNN Classifier. Since there are many classes when we are involved with real-time audio-visual data, these supervised machine algorithms fail to produce results with much accuracy or speed.
 So, to summarize, we develop a CNN model and train it on a large corpus of images. Next, The trained model is compiled using different optimizers. We plot training loss, validation loss, and finally, implement the best model for the drowsiness detection system. Some of the limitations we encountered were low GPU capability and time-consuming training operations due to image preprocessing and input size.
 </p>
+
 ### Optimizers used:
 <ol>
 <li>Adam</li>
