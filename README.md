@@ -23,5 +23,11 @@ So, to summarize, we develop a CNN model and train it on a large corpus of image
 <li>RMSProp</li>
 </ol>
 
-#### The data set is in:
+### Conclusion:
+<p align="justify">
+  In this work, we have obtained results for image classification of driver drowsiness based on the most prevalent optimizers used in CNN. The optimizer analysis was done using the exact same CNN model. The accuracy obtained by Adagrad was the highest with a validation accuracy of 80.53%, followed by Adamax with 79.57%, then Adam with 73.56%, followed by Nadam with 71.39%, and SGD with 68.27% and finally, RMSProp having the worst performance with 56.49%.
+When it comes to categorical cross-entropy loss, the best performance was given by Adagrad with a validation loss of 5.5562, followed by SGD with 18.6988, then Adamax with 35.2122, then Adam with 38.6224, next being Nadam with 87.5950 and finally, RMSProp with 167.9985. We also implemented the drowsiness detection algorithm which performed well. We used the CNN model with Adagrad optimizer.
+</p>
+
+#### The dataset is in:
 https://www.kaggle.com/datasets/serenaraju/yawn-eye-dataset-new
